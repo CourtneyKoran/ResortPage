@@ -1,0 +1,145 @@
+/*
+File: pacific.css
+GUI Assignment: HW2. Repicating html website using css.
+Courtney Koran, UMass Lowell Computer Science, Courtney_Koran@student.uml.edu
+Copyright (c) 2021 by Courtney. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by CK on July 20, 2021.
+This css code styles the corresponding index.html file to replicate the pacific
+trails resort website given by the instructor without modifying the html file. 
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/*styles the background of the entire website including the gradient*/
+body {
+	background:linear-gradient(white,#00569f, #00569f 155%);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*styles the actual cbox that contains the content of the website*/
+#wrapper{
+    width:80%;
+    background-color:white;
+    min-width: 600ppx;
+    margin-right: auto;
+	margin-left: auto;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	height: 700px;
+}
+
+/*styles the heading/title of the website includes background photo*/
+header{
+	background: rgb(29, 1, 51) url("images/sunset.jpg") no-repeat right;
+	color:white;
+	padding:0px;
+}
+
+/*styles the navigation links box on the left side of the website*/
+nav ul {
+	width: 250px ;
+	max-width: 250px ;
+	background-color: rgb(145, 203, 224);
+	color: black;
+	font-size: 120%;
+    font-weight: bold;
+	height: 603px;
+	margin-top: 0%;
+	margin-right: 30px;
+	margin-bottom: 10%;
+	padding: 20px;
+	list-style-type: none;
+	float:left;
+}
+
+/*styles the navigation link text*/
+a{
+	text-decoration: none;
+	color:black;
+}
+
+/*nav a:visited {
+	color: #344873;
+	
+}*/
+
+/*stlyes links when they are hovered over*/
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/*stlyes heading box*/
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+/*styles second heading*/
+h2 {
+	color: #3399CC;
+}
+
+/*styles first and second heading*/
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+
+}
+
+/*styles the contact information*/
+#contact {
+	/*float: left;*/
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+/*styles footer */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	padding-top: 70px;
+	font-style: italic;
+	font-size:76%
+}
+
+/*styles the image */
+img{
+	float:left;
+	margin-right: 20px;
+	width: 350px;
+}
+
+/*styling the second list of bullets*/
+ul:nth-child(even) {
+	list-style-image: url('images/marker.gif');
+	padding-right: 50px;
+	list-style-position: inside;
+	font-size: 110%;
+}
+
+/*styles the Pacific Trails resort class*/
+.resort{
+	color: #3399CC;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 120%;
+	font-weight: bold;
+	padding-right:20px;
+}
+
+/*styles first paragraph*/
+P{
+	padding-right: 50px;
+	font-size: 110%;
+}
+
+/*styling seconf element in footer*/
+footer a{
+	text-decoration: underline;
+	color: blue;
+}
